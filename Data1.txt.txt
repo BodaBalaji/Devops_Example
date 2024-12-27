@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+
+    <id>Nuget Example</id>               
+    <version>1.0.0</version>                
+    <authors>Balaji Boda</authors>             
+    <owners>MyCompany</owners>    
+              
+    <description>Its my first nuget package</description> 
+    <tags>awesome, library, .NET</tags> 
+   
+  </metadata>
+
+  <files>
+    <file src="\Users\BalajiBoda\desktop\nugetExample\*" target="nugetExample/Data1.txt" />
+   
+    <file src="LICENSE" target="content" />
+  </files>
+</package>
